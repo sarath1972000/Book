@@ -69,3 +69,21 @@ body{
     width : 300px;
     height: 300px;
 }
+
+@media (min-width :100px )and (max-width : 700px){
+    .imgSize{
+        width : 100px;
+        height: 100px;
+    }
+    .topContainer{
+        display: flex;
+        flex-direction: row;
+        padding : 10px;
+        gap:10%;
+        font-size:small;
+    }
+    .bottomContainer{
+        padding : 20px;
+        font-size: large;
+    }
+}
