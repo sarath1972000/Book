@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="error" >
+        <p class="errorMsg"></p>
+    </div>
+
+
+    <div class="box">
+    <div class="container">
+            <input list="datalist" class="text" type="search" placeholder="Enter Book Name"  spellcheck="true" name="Location" required>
+            <datalist id="datalist">
+
+            </datalist>
+            <input class="submit" type="submit" value="search">
+    </div>
+    <div class="dataContainer">
+        <div class="topContainer">
+            <div class="topdetails">
+                <h1 class="title"></h1>
+                <h2 class="author"></h2>
+                <h3 class="publication"></h3>
+                <h4 class="genre"></h4>
+            </div>
+            <div class="bottomdetails">
+                <img class="img" src="" >
+            </div>
+        </div>
+        <div class="bottomContainer">
+            <p class="body"></p>
+        </div>             
+    </div>
+    </div>
+ <script src="./app.js"></script>   
+</body>
+</html>
